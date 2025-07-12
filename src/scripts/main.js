@@ -3,14 +3,7 @@
 // Uncomment the next lines to use your game instance in the browser
 import Game from '../modules/Game.class.js';
 
-const initialBoard = [
-  [0, 0, 0, 0],
-  [0, 0, 0, 0],
-  [0, 0, 0, 0],
-  [0, 0, 0, 0],
-];
-
-const game = new Game(initialBoard);
+const game = new Game();
 
 const button = document.querySelector('button');
 const cells = [...document.querySelectorAll('.field-cell')];
